@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Список продуктов:");
         for (Product product : products) {
             System.out.println(product.getId() + ": " + product.getName() + " - $" + product.getPrice());
-            productDao.saveProduct(product);
+//            productDao.saveProduct(product);
         }
     }
 }
